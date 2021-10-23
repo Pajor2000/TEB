@@ -1,0 +1,5 @@
+zmiana portu xampp:
+-config
+-Apache (httpd.conf)
+-szukanie linijki listen
+-zmiana liczby

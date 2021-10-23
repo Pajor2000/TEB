@@ -1,0 +1,3 @@
+ctr+enter: nowa linia na dole
+ctr+shift+enter: nowa linia na górze
+ctr+shidt+D: kopiuje text na dół
