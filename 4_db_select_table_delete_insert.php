@@ -43,6 +43,7 @@ TABLE;
             <td>$row[city]</td>
             <td>$row[birthday]</td>
             <td><a href="./scripts/delete.php?deleteId=$row[user_id]">Usuń</a></td>
+            <td><a href="./scripts/update.php?updateId=$row[user_id]">Aktualizuj</a></td>
           <tr>
 USER;
       }
