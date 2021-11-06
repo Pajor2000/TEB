@@ -77,6 +77,8 @@ echo <<< FORMADDUSER
           </form>
 FORMADDUSER;
 
+      }else {
+        echo '<hr><a href="./4_db_select_table_delete_insert.php?addUser=">Dodaj użytkownika</a>';
       }
 
 //aktualizacja użytkownika
