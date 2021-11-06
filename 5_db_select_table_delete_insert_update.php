@@ -104,6 +104,13 @@ FORMADDUSER;
 $sql="SELECT * FROM `cities`";
 $result=$connect->query($sql);
 while ($city=$result->fetch_assoc()) {
+  if ($userUpdate['city_id'] == $city['city_id']) {
+
+    echo <<< CITY
+    <option value="$city[city_id]" selected>$city[city]</option>
+    CITY;
+
+  }
 echo <<< CITY
 <option value="$city[city_id]">$city[city]</option>
 CITY;
